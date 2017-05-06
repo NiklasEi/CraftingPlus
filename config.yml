@@ -1,0 +1,15 @@
+# ----------------------------------------------------------------------------#
+#                                                                             #
+#                             Crafting+ config                                #
+#                                                                             #
+# ----------------------------------------------------------------------------#
+
+# name of the language file (in the folder 'language')
+#   the default.yml file is overwriten on every server restart! This means you will have to use the other files
+#     to customize the messages
+#   You should use the default file if you just want to have the up to date english default messages
+langFile: 'default.yml'
+
+behaviour:
+  # This option assures that special items are not used in vanilla recipes.
+  forceNoSpecialDisplayNameAndNoLore: true

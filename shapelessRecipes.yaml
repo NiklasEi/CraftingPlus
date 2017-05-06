@@ -1,0 +1,13 @@
+test2:
+  resultItem:
+    material: EMERALD_BLOCK
+    displayName: "&aTest Item 1"
+    lore:
+    - "test1"
+    - "&4test2"
+    glow: false
+  recipe:
+    '1':
+       material: EMERALD_BLOCK
+    '5':
+       material: EMERALD_BLOCK

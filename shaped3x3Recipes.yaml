@@ -1,0 +1,31 @@
+#           1 2 3
+#   Shape:  4 5 6
+#           7 8 9
+#
+#   below each key is a custom recipe (keys must be unique)
+#
+#
+#   under 'resultItem' you can specify the item that will be crafted
+#
+#   under 'recipe' set the corresponding items (see 'Shape' above). Not set number will be expected to be air.
+#
+#
+#   Below find an example recipe that will not be loaded by the plugin
+
+
+# use & for color codes
+exampleRecipe:
+  resultItem:
+    material: STONE:4
+    displayName: "&aTest Item 2"
+    lore:
+    - "test1"
+    - "&4test2"
+    glow: true
+  recipe:
+    '9':
+       material: Diamond
+       displayName: "&aTest Item 1"
+       lore:
+       - "test1"
+       - "&4test2"

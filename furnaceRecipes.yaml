@@ -1,0 +1,8 @@
+testing:
+  result:
+    material: Stone
+    lore:
+    - "blabla"
+    displayname: "test1"
+  source:
+    material: Stone
